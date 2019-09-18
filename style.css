@@ -97,7 +97,7 @@ h1,h2,h3, .nav li a{
 }
 
 #img-small img{
-	width:200px;
+	width:150px;
 	padding:5px;
 }
 
@@ -183,7 +183,9 @@ h6{
 .small{
 	text-transform:lowercase;
 }
-
+#related{
+	margin-bottom:50px;
+}
 #related img{
 	width:30%;
 	margin:2%
