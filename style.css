@@ -89,11 +89,11 @@ h1,h2,h3, .nav li a{
 
 #left-side{
 	height:100%;
-	width:38%;
+	width:37%;
 	
 	float:left;
 	padding:30px 0px;
-	margin-left:2%;
+	margin-left:3%;
 }
 
 #img-small img{
@@ -157,7 +157,7 @@ h6{
 
 .fa-search-plus{
 	position:relative;
-	left:35%;
+	left:15%;
 	top:15px;
 	font-size:35px;
 	
