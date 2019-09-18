@@ -3,24 +3,137 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://endre88.github.io/Product_Landing_Page/032grid.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<title>Splendex work</title>
 </head>
 <body>
+	<div class="logo">
+		<img src="https://endre88.github.io/splendex/img/logo.png" alt="">
+	</div>
 	<header>
       <nav> 
-         <div class="row">
-            <ul class="main-nav js--main-nav">
-               <li><a class= "js--scroll-to-food" href="#features">Food delivery</a></li>
-               <li><a class= "js--scroll-to-how" href="#works">How it works</a></li>
-               <li><a class= "js--scroll-to-cities" href="#cities">Our cities</a></li>
-               <li><a class= "js--scroll-to-signup" href="#signup">Sign up</a></li>
+         <div class="row" id="nav">
+            <ul class="nav nav-pills" id="left-nav">
+               <li class="nav-item dropdown">
+						<a class= "man nav-link dropdown-toggle" data-toggle="dropdown" href="#">Man</a>
+						<div class="dropdown-menu">
+      					<a class="dropdown-item" href="#">Link 1</a>
+      					<a class="dropdown-item" href="#">Link 2</a>
+      					<a class="dropdown-item" href="#">Link 3</a>
+    				</div>
+					</li>
+               <li class="nav-item"><a class= "women nav-link" href="#">Women</a></li>
+               <li class="nav-item"><a class= "shop nav-link" href="#">Shop</a></li>
             </ul>
-            <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+				<ul class="right-nav nav">
+					<li class="nav-item"><a class= "nav-link" href="#" id="item">0 Items</a></li>
+					<li class="nav-item"><a class= "nav-link cart" href="#"><i class="fab fa-opencart"></i></a></li>
+				</ul>
          </div>
       </nav>
 	</header>
-
+	<main class="row" id="main">
+		<div id="left-side">
+			<div id="img-big">
+				<img src="https://endre88.github.io/splendex/img/big-blue.jpg" alt="Photo by Julia Kuzenkov from Pexels">
+				<i class="fas fa-search-plus"></i>
+			</div>
+			<div id="img-small">
+				<img src="https://endre88.github.io/splendex/img/boy.png" alt="">
+				<img src="https://endre88.github.io/splendex/img/boy.png" alt="">
+				<img src="https://endre88.github.io/splendex/img/boy.png" alt="">
+				<img src="https://endre88.github.io/splendex/img/boy.png" alt="">
+				<img src="https://endre88.github.io/splendex/img/boy.png" alt="">
+				<img src="https://endre88.github.io/splendex/img/boy.png" alt="">
+			</div>
+		</div>
+		<div id="right-side">
+			<div>
+				<h3>HOODIE</h3>
+				<h4>$148.00</h4>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus alias adipisci harum, repellat voluptatum laborum placeat laudantium esse officia itaque quia, officiis ex sed voluptate unde laboriosam quidem libero molestiae.Distinctio quidem inventore facere odio error minima quos in velit, veniam alias labore laudantium, illo tenetur molestiae sequi architecto dolorem numquam ut! Temporibus a molestias ipsam odit quae distinctio dolor?</p>
+				<ul class="first-ul">
+					<li> - Lorem ipsum dolor sit amet consectetur</li>
+					<li> - Lorem ipsum dolor sit amet consectetur</li>
+					<li> - Lorem ipsum dolor sit amet consectetur</li>
+					<li>Lorem ipsum dolor sit amet consectetur</li>
+				</ul>
+			</div>
+			<div>
+				<h6>Fit:</h6>
+				<ul class="second-ul">
+					<li>Lorem ipsum dolor sit amet consectetur</li>
+					<li>Lorem ipsum dolor sit amet consectetur</li>
+					<li>Lorem ipsum dolor sit amet consectetur</li>
+					<li>Lorem ipsum dolor sit amet consectetur</li>
+				</ul>
+				<h6>Fabrication:</h6>
+				<ul class="third-ul">
+					<li>Lorem ipsum dolor sit amet consectetur</li>
+				</ul>
+			</div>
+			<div>
+				<p class="big">color
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+				</p>
+				<p class="big">size
+					<img src="" alt="">
+				</p>
+			</div>
+			<button class="button">
+				Add to cart
+			</button>
+			<div class="category big">
+				<p>sku: <span>N/A</span></p>
+				<p>Categories: <span>men,sweatshirts,jackets</span></p>
+			</div>
+			<div class="big">
+				<p>Additional information</p>
+				<p>Reviews(0)</p>
+			</div>
+			<table class="table table-borderless">
+			 <tbody>
+				<tr>
+				  <td class="big">Color</td>
+				  <td>Black,Orange,Yellow</td>
+				  
+				</tr>
+				<tr>
+				  <td class="big">Size</td>
+				  <td class="active big">One size</td>
+				 </tr>
+			 </tbody>
+		  </table>
+		</div>
+	</main>
+	<div id="related">
+		<h4>Related products</h4>
+		<div>
+			<img src="https://endre88.github.io/splendex/img/boy.png" alt="">
+			<p>Double Biker Shorts</p>
+			<p><span>$90.00</span></p>
+		</div>
+	</div>
+	<footer class="footer">
+		<div>
+			<p>&copy; 320DTLA 2019</p>
+			<ul>
+				<li>Privacy Policy</li>
+				<li>Cancellation & Refund Policy</li>
+				<li>Built with  by Endre Szabo</li>
+			</ul>
+		</div>
+	</footer>
+	
+	
 </body>
 </html>
